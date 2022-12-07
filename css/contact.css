@@ -1,0 +1,110 @@
+/*All*/
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300;400;600&family=Noto+Sans:wght@300;400;500;600&family=Poly&display=swap');
+  /*Fonts: Poly, Athiti, Noto Sans*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poly', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Athiti', sans-serif;
+  color: lightgoldenrodyellow;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  color: ghostwhite;
+}
+
+/*Header*/
+h1 {
+  color: ghostwhite;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 3%;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  width: 100vw !important;
+  background-color: #111111;
+
+}
+
+section, aside {
+  display: inline-flex;
+}
+
+/*section*/
+section {
+  display: inline-flex;
+  margin-top: 60px;
+  margin-left: 45px;
+  float: left;
+}
+
+
+/*aside*/
+aside {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+aside img {
+  width: 90px;
+  height: 90px;
+}
+
+textarea {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+  padding: 5px;
+}
+
+
+button {
+  float: right;
+  padding: 10px;
+}
+
+/*footer*/
+.socialmedia {
+    clear: both;
+    position: absolute;
+    justify-content: left;
+    display: inline-flex;
+    list-style-type: none;
+    bottom: 3em;
+    left: 3%;
+    width: 100px;
+}
+
+.socialmedia li {
+    margin: 0px 5px 0px 10px;
+}
+
+.socialmedia img {
+  width: 25px;
+  height: 25px;
+}
+
+.facebook {
+    height: 88%;
+    border-radius: 27%;
+    background: floralwhite;
+    opacity: 95%;
+}
+
+.socialmedia a:hover{
+  color: yellow;
+  opacity: 80%;
+}
