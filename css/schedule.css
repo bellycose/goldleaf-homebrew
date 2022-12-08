@@ -41,19 +41,18 @@ img {
 }
 
 body {
-    width: 100vw !important;
     background-color: #111111;
 }
 
-/*section, aside {
+section .calender, aside {
   display: inline-flex;
 }
-*/
+
 /*section*/
 section {
     margin-top: 45px;
     margin-left: 30px;
-    margin-right: 50%;
+    margin-right: 75%;
     float: left;
 }
 
@@ -68,25 +67,23 @@ section ul li {
 
 /*Aside*/
 aside {
-    display: absolute;
+    display: inline-block;
     margin-top: 10px;
     margin-left: 2%;
 }
 
 aside td {
-    padding: 4px;
+    padding: 7px;
+    border: 1px solid;
 }
 
 /*footer*/
 .socialmedia {
-    clear: both;
-    justify-content: left;
     display: flex;
     list-style-type: none;
-    bottom: 3em;
-    left: 3em;
-    width: 100%;
-    margin-left: 30px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 .socialmedia img {
